@@ -24,8 +24,12 @@ class Chart extends Component{
             <div className="chart">
                 <Line
                 data={this.state.chartData}
+                height={500}
+                width={900}
                 options={{
-                    maintainAspectRatio: false
+                    maintainAspectRatio: true,
+                    responsive: true,
+                    legend:{display: false}
                 }}
                 />
             </div>
