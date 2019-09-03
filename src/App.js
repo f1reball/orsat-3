@@ -2,10 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Chart from './components/Chart'
-
 import Button from 'react-bootstrap/Button';
-
-
 
 
 function App() {
