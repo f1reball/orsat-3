@@ -28,7 +28,7 @@ const [modalShow, setModalShow] = React.useState(false);
 
 
         <Button variant="danger" onClick={(e) => setModalShow(true)}>
-            Primary
+            Add New Runner
         </Button>
         <AddRunnerComponent
           show={modalShow}

@@ -19,6 +19,7 @@ class AddRunnerComponent extends Component{
 
         this.onReset = this.onReset.bind(this);
         this.onSubmit = this.onSubmit.bind(this);
+        this.onExited = this.onExited.bind(this);
 
     }
 
@@ -77,6 +78,14 @@ class AddRunnerComponent extends Component{
         })
     }
 
+    onExited(e){
+        this.setState({
+            firstName: '',
+            lastName: '',
+            SIID: ''
+        })
+    }
+
 
     render(){
         return(
@@ -87,6 +96,7 @@ class AddRunnerComponent extends Component{
              size="med"
              aria-labelledby="contained-modal-title-vcenter"
              centered
+             onExited={this.onExited}
              >
 
              <Modal.Header closeButton>
