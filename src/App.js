@@ -23,7 +23,7 @@ const [modalShow, setModalShow] = React.useState(false);
     //then connect to that port using windows or mac connection
 
     if(platform.os.family == "Windows"){
-        console.log("fked");
+        console.log("fpps");
     }
 
     console.log(platform.os);
@@ -34,10 +34,11 @@ const [modalShow, setModalShow] = React.useState(false);
     <SideBar/>
     </div>
 
+
+
       <header className="App-header">
 
         <Chart />
-
 
         <Button variant="danger" onClick={(e) => setModalShow(true)}>
             Add New Runner

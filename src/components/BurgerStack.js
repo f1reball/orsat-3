@@ -5,27 +5,27 @@ export default props => {
   return (
     <Menu>
       <a className="menu-item" href="/">
-        Home
+        <i class="fas fa-home"></i>  Home
       </a>
 
       <a className="menu-item" href="/events">
-        Events
+        <i class="fas fa-map-marked-alt"></i> Events
       </a>
 
       <a className="menu-item" href="/results">
-        Results
+        <i class="fas fa-poll"></i> Results
       </a>
 
       <a className="menu-item" href="/runners">
-        Runners
+        <i class="fas fa-running"></i> Runners
       </a>
 
       <a className="menu-item" href="/mstrdbs">
-        Master Database
+        <i class="fas fa-database"></i> Master Database
       </a>
 
       <a className="menu-item" href="/mapdbs">
-        Map Database
+        <i class="fas fa-database"></i> Map Database
       </a>
 
     </Menu>
