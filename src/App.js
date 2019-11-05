@@ -13,6 +13,7 @@ import SideBar from './components/BurgerStack';
 
 import Button from 'react-bootstrap/Button';
 
+import Stat_bar from './components/Stat_bar'
 
 
 function App() {
@@ -38,6 +39,7 @@ const [modalShow, setModalShow] = React.useState(false);
 
       <header className="App-header">
 
+        <Stat_bar/>
         <Chart />
 
         <Button variant="danger" onClick={(e) => setModalShow(true)}>
