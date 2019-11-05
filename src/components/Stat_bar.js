@@ -37,7 +37,7 @@ class Stat_bar extends Component{
 
     // Can specify path transition in more detail, or remove it entirely
     // pathTransition: 'none',
-
+    width: 50,
     // Colors
     pathColor: `rgba(62, 152, 199, ${80 / 100})`,
     textColor: '#f88',
@@ -46,6 +46,8 @@ class Stat_bar extends Component{
   })}
 /></Col>
                     <Col>3</Col>
+                    <Col>4</Col>
+                    <Col>5</Col>
                 </Row>
             </Container>
         )
