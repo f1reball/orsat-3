@@ -127,7 +127,3 @@ button:focus {
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
 }
-
-.CircularProgressbar {
-    height: 100px;
-}
